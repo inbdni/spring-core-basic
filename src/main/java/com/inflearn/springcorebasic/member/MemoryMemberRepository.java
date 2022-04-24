@@ -2,7 +2,6 @@ package com.inflearn.springcorebasic.member;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
 
 public class MemoryMemberRepository implements MemberRepository {
 
