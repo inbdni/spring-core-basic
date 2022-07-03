@@ -1,8 +1,11 @@
 package com.inflearn.springcorebasic.discount;
 
+import org.springframework.stereotype.Component;
+
 import com.inflearn.springcorebasic.member.Grade;
 import com.inflearn.springcorebasic.member.Member;
 
+@Component
 public class RateDiscountPolicy implements DiscountPolicy {
 
 	private int discountPercemt = 10;
